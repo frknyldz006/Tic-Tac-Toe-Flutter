@@ -1,6 +1,10 @@
 #Tic Tac Toe Game in Flutter
 Welcome to the Tic Tac Toe Game in Flutter! This project is a simple implementation of the classic Tic Tac Toe game using the Flutter framework. The game is designed to be a fun way to get started with Flutter 
 
+![alt text](https://github.com/frknyldz006/Tic-Tac-Toe-Flutter/blob/main/lib/ss/ss1.png)
+![alt text](https://github.com/frknyldz006/Tic-Tac-Toe-Flutter/blob/main/lib/ss/ss2.png)
+![alt text](https://github.com/frknyldz006/Tic-Tac-Toe-Flutter/blob/main/lib/ss/ss3.png)
+
 Two-player mode: Play against another human on the same device.
 Simple and clean UI: Easy-to-understand user interface with a modern look.
 Winner detection: Identifies the winner and shows a message when the game is over.
