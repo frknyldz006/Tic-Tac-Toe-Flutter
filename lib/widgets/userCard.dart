@@ -22,13 +22,15 @@ class userCard extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
-            Container(
-              height: 80,
-              width: 80,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: color,
-                )
+            Stack(
+              children: [Container(
+                height: 80,
+                width: 80,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: color,
+                  )
+              ),userName == "User 1" ?Image(image: AssetImage("assets/x.png"),height: 80,width: 80,):Image(image: AssetImage("assets/o.png"),height: 80,width: 80,),]
             ),
             SizedBox(height: 10,),
             Column(
